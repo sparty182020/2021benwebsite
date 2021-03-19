@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html class="javascript-page">
+    <head>
+        <title>Benjamin's Javascript Page</title>
+        <script>
+        function showTime() {
+            var d = new Date();
+            document.getElementById("date-area").innerHTML = "The date is: " + d.toUTCString();
+        }
+        setInterval(showTime, 1000)
+        </script>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet-2.css">
+        <link rel="icon" href="gif/loading.gif" type="image/gif" class="favicon">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+</style>
+    </head>
+    <body>
+        <nav>
+            <ul>
+                <li><a href="Main Page.html">Main Page</a></li>
+                <li><a href="Random Number Generator.html">Random Number Generator</a></li>
+                <li><a href="Things I Make.html">Things I make</a></li>
+                <li><a href="Games.html">Games</a></li>
+                <li><a href="Funny things.html">Funny stuff</a></li>
+                <li><a href="Subscription.html">Sub to</a></li>
+                <li><a href="about-me.html">About Me</a></li>
+                <li><a href="Coded Text.html">Coded Text</a></li>
+                <li><a href="Forms.html">Form</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+        <h1 class="js-page-head">Benjamin's Javascript Page</h1>
+        <p id="name-section">Your name is: *unknown*</p>
+        <p id="date-area">The date is *unknown*</p>
+        <p class="help-hint">Subtract 4 Hours To Get Eastern Time Zone (EST)</p>
+        <button onclick="nameShow()">Name</button>
+        <script src="javascript/Script-7.js"></script>
+    </body>
+</html>

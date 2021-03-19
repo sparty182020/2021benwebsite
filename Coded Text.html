@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coded Text</title>
+        <link rel="stylesheet" type="text/css" href="css/stylesheet-2.css">
+        <link rel="icon" href="gif/loading.gif" type="image/gif" class="favicon">
+        <style>
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital@1&display=swap');
+</style>
+    </head>
+    <body>
+        <p class="top-tip">This page works the best on Google Chrome</p>
+        <nav>
+            <ul>
+                <li><a href="Main Page.html">Main Page</a></li>
+                <li><a href="Random Number Generator.html">Random Number Generator</a></li>
+                <li><a href="Things I Make.html">Things I make</a></li>
+                <li><a href="Games.html">Games</a></li>
+                <li><a href="Funny things.html">Funny stuff</a></li>
+                <li><a href="Subscription.html">Sub to</a></li>
+                <li><a href="About me.html">About Me</a></li>
+                <li class="selected">Coded Text</li>
+                <li><a href="Forms.html">Form</a></li>
+                <li><a href="Feedback.html">Feedback</a></li>
+            </ul>
+        </nav>
+        <h1 class="code-intro">I have some encoded text. I want to see if you can figure out how to decode this text.</h1>
+        <p class="coded-text">SGVsbG8_CgpDYW4geW91IGhlYXIgbWU_CgpIaSEgSSdtIEJlbmphbWluIE1hcnNoIQoKVGhpcyBpcyB0ZXh0LWVuY29kZSBpbiBCYXNlNjQgQ29kZSAoQSBSRUFMTFkgU0VDVVJFIFdBWSBPRiBFTkNPRElORyBURVhUKQoKSSd2ZSBndWVzc2VkIHRoYXQgeW91IGhhdmUgc3VjY2Vzc2Z1bGx5IGRlY29kZWQgdGhpcyB0ZXh0LgoKV2VsbCwgUGxlYXNlIHN1Ym1pdCB0aGlzIHRleHQgdG8gdGhlIGZvcm0gb24gdGhlIEZvcm1zIHBhZ2UgdG8gYW5zd2VyIHRoZSBxdWVzdGlvbi4KClRoYW5rcywKQmVuamFtaW4gPDM<p>
+        <p class="file-download-code">Use <a href="Coded messages/Coded Text.txt" target="blank_">this file</a> if needed</p>
+        <p class="hint">Use this button to get a hint</p>
+        <button onclick="ShowHint()">Hint!</button>
+        <div id="hint12">
+            Hidden Hint
+        </div>
+        <script>
+            function ShowHint() {
+            var x = document.getElementById("hint12");
+            if (x.innerHTML === "Hidden Hint") {
+                x.innerHTML = "Use A Base64 decoder";
+            } else {
+                 x.innerHTML = "Hidden Hint";
+                }
+            }
+        </script>
+    </body>
+</html>

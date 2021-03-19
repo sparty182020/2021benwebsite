@@ -1,0 +1,198 @@
+body {
+    background-color: #e3cfcf;
+    border: 2px solid Grey;
+    border-radius: 16px;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1024px;
+    min-width: 256px;
+    padding-top: 8px;
+    padding-bottom: 24px;
+    padding-right: 16px;
+    padding-left: 16px;
+}
+html {
+    background: linear-gradient(to right, red,orange,yellow,green,blue,purple);
+    background-size: Auto Auto;
+    padding: 16px;
+}
+h1 {
+    font-family: 'Balsamiq Sans', cursive;
+    color: blue;
+}
+nav ul {
+    list-style-type: none;
+    background-color: #B577B5;
+    border: 4px solid #111111;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+    padding: 16px;
+}
+nav ul li {
+    display: inline;
+    border-right: 2px solid #111111;
+    padding-right: 8px;
+    padding-left: 8px;
+    text-align: center;
+}
+nav ul li:last-child {
+    border-right: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #111111;
+    text-align: center;
+}
+ul.things {
+    list-style-image: url('images/minecraft.png');
+}
+h1.Minecraft-mods {
+    color: #111111;
+    text-align: center;
+}
+h1.Website-files {
+    color: #111111;
+    text-align: center;
+}
+h1.Web-console {
+    color: #111111;
+    text-align: center;
+}
+h2 {
+    font-weight: bold;
+}
+#game-intro {
+    font-weight: bold;
+    color: #111111;
+}
+nav li.selected {
+    color:#606060;
+}
+a:link {
+    color: blue;
+}
+a:visited {
+    color: purple;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+p.top-tip {
+    border: 4px solid #00AFEB;
+    border-radius: 10px;
+    padding: 16px;
+    background-color: #C5EBFB;
+}
+p.top-tip::before {
+    color: Black;
+    content: "TOP TIP: ";
+    font-weight: bold;
+}
+ul li.sub-t {
+    color: blue;
+}
+ul li.sub-y {
+    color: red;
+}
+a.tag {
+    color: inherit;
+    text-decoration: none;
+}
+a.files-m {
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+}
+a.files-m::before {
+    color:#1d1d1d;
+    content: "MINECRAFT MOD: ";
+}
+a.files-ws {
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+}
+a.files-ws::before {
+    color:#1d1d1d;
+    content: "WEBSITE ARCHIVE: ";
+}
+h1.newform {
+    color: #111111;
+}
+p.me {
+    color: #ff2400;
+    font-weight: bold;
+}
+table {
+    font-size: 70%;
+    border-collapse: collapse;
+    width: 100%;
+}
+th, td {
+    border: 1px solid #000000;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: #FCAB68;
+}
+td {
+    background-color: #BA99C0;
+}
+h1.Contact-1 {
+    color: black;
+}
+p.contact-description {
+    color: blue;
+}
+p.contact-description a {
+    text-decoration: none;
+    color: yellow;
+}
+.favicon {
+    size: 8px;
+}
+#hint12 {
+  width: 100%;
+  padding: 10px 0;
+  text-align: center;
+  background-color: lightblue;
+  margin-top: 20px;
+}
+h1.code-intro {
+    color: orange;
+    font-weight: bold;
+}
+p.coded-text {
+    color:#111111;
+    word-break: break-all;
+}
+p.file-download-code {
+    color: #30bf56;
+}
+p.file-download-code a {
+    text-decoration: none;
+    color: red;
+}
+p.hint {
+    color: Blue;
+}
+#name-section {
+    color: rgba(24, 69, 59, 0.75);
+    font-weight: bold;
+    font-size: 16px;
+}
+#date-area {
+    font-weight: bold;
+    font-size: 16px;
+    color: #ee3710
+}
+.javascript-page title{
+    color:blue;
+}

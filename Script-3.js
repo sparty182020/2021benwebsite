@@ -1,0 +1,22 @@
+console.log('Google: Loading!');
+      console.log('Google: Verifying');
+      console.log('Google: Authorizing');
+      console.log('Google: Loging In');
+      console.warn('Google: Files missing');
+      console.warn('Google: Virus detected');
+      console.log('Google: Virus deleted');
+      console.error('Console: command "delete-all" not recognized. Please try again');
+      console.log('Google: Hack Client started');
+      console.warn('Google: Are you sure you want to proseed?');
+      console.log('User-1: yes');
+      console.log('Google: Starting to hack website');
+      console.log('Google: Passwords collected');
+      console.log('Google: Hacking comleted');
+      console.log('Google: Do you want the files to be downloaded?');
+      console.log('User-1: yes');
+      console.warn('Google: New Connection Added. Name: FBI');
+      console.log('Google: Files successfully downloaded');
+      console.error('Google: Files deleted by USER : FBI REASON : ILLIGAL FILES');
+      console.log('Google: Remove ROLE : Mod from USER : USER-1');
+      console.log('Google: Command successfully executed by USER : FBI')
+      console.error(' FBI: YOU SHOULDN"T BE HERE');
